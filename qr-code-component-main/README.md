@@ -21,12 +21,12 @@
 
 Desktop view of page
 
-![Design preview for the QR code component coding challenge](./Previews/desktop_preview.png)
+![Design preview for the QR code component coding challenge](./previews/desktop_preview.png)
 
 
 Mobile view of page
 
-![Design preview for the QR code component coding challenge](./Previews/mobile_preview.png)
+![Design preview for the QR code component coding challenge](./previews/mobile_preview.png)
 
 
 ### Links
