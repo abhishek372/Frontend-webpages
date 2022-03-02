@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+/* Main div */
+.main_content {
+    background-color:  #fff;
+    border-radius: 1.5rem;
+    margin: 4.5rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 550px;
+    font-family: 'Outfit', sans-serif;
+}
+/* Image div */
+.image {
+    height: 70%;
+    width: 100%;
+}
+/* QR code Image */
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+/* Title of the image */
+.img_title {
+    padding: 1rem 0;
+    color: hsl(218, 44%, 22%);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 89%;
+}
+/* Image Paragraph */
+.img_about {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    width: 80%;
+    padding-bottom: 1.4rem;
+}
+
+/* Setting width according to screen size */
+@media (min-width: 320px) and (max-width: 400px) {
+    .main_content {
+        width: 90%;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .main_content {
+        width: 70%;
+    }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+    .main_content {
+        width: 45%;
+    }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+    .main_content {
+        width: 30%;
+    }
+}
+
