@@ -12,19 +12,19 @@ body {
 .main_content {
     background-color:  #fff;
     border-radius: 1.5rem;
-    margin: 4.5rem auto;
+    margin: 6rem auto;
     padding: 1rem;
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    width: 25%;
-    height: 550px;
+    width: 22%;
+    height: 500px;
     font-family: 'Outfit', sans-serif;
 }
 /* Image div */
 .image {
-    height: 70%;
+    height: 60%;
     width: 100%;
 }
 /* QR code Image */
@@ -40,7 +40,7 @@ img {
     font-weight: bolder;
     font-size: 1.4rem;
     text-align: center;
-    width: 89%;
+    width: 90%;
 }
 /* Image Paragraph */
 .img_about {
@@ -48,7 +48,6 @@ img {
     color: hsl(220, 15%, 55%);
     text-align: center;
     width: 80%;
-    padding-bottom: 1.4rem;
 }
 
 /* Setting width according to screen size */
