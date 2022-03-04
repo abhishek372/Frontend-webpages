@@ -8,6 +8,7 @@
 body {
     background-color: hsl(217, 54%, 11%);;
 }
+/* Main container */
 .main_content {
     display: flex;
     flex-direction: column;
@@ -17,8 +18,10 @@ body {
     margin: 5rem auto;
     width: 22%;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 30px 5px 12px rgba(17, 17, 47, 0.603);
 }
+/* Image Parent div  */
 .image_parent{
     width: 100%;
     height: 100%;
@@ -27,24 +30,36 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* Card image */
 .card_image {
     width: 90%;
     padding: 1rem 0;
     display: flex;
     position: relative;
+    /* cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAf4AAAPVAAAH1QAAB9WAAA3VgAAd/4AAGbaAAAG2gAABtgAAAYAAAAGAAAABgAAAAYAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////gD///4A///8AP//+AB///AAf//wAD//4AA//8AAP//AAD//5AA///wAf//8Af///D////w////8P////n///8='), auto; */
 }
+/* Main Image */
 img {
     height:100%;
     width: 100%;
-    border-radius: 1.2rem;
+    border-radius: 1rem;
+    cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAf4AAAPVAAAH1QAAB9WAAA3VgAAd/4AAGbaAAAG2gAABtgAAAYAAAAGAAAABgAAAAYAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////gD///4A///8AP//+AB///AAf//wAD//4AA//8AAP//AAD//5AA///wAf//8Af///D////w////8P////n///8='), auto;
 }
 .img_title {
     font-size: 18px;
     font-weight: bold;
+    color: #fff;
 }
+/* image title */
+section {
+    width: 54%;
+    cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAf4AAAPVAAAH1QAAB9WAAA3VgAAd/4AAGbaAAAG2gAABtgAAAYAAAAGAAAABgAAAAYAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////gD///4A///8AP//+AB///AAf//wAD//4AA//8AAP//AAD//5AA///wAf//8Af///D////w////8P////n///8='), auto;
+}
+/* about image */
 .img_about {
     font-size: 16px;
 }
+/* title and main paragraph */
 .content {
     padding-left: 1.2rem ;
     padding-right: 1.2rem ;
@@ -54,41 +69,46 @@ img {
     gap: 1rem;
     position: relative;
 }
+/* coin icon */
 .coin {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0;
 }
+/* coins text */
 .coin_count {
     color: hsl(178, 100%, 50%);
     display: flex;
     gap: 7px;
     font-size: 14px;
 }
+/* days text */
 .days {
     display: flex;
     gap: 4px;
     font-size: 14px;
 }
+/* coin icon */
 .coin_icon {
     height: 20px;
     width: 12px;
 }
+/* clock icon */
 .clock_icon{
     height: 20px;
     width: 20px;
 }
+/* coin text and days text */
 span {
     padding-top: 1px;
 }
+/* horizontal line */
 .line {
     background-color: hsl(216, 21%, 38%);
     padding: 0.1px;
 }
-.img_title {
-    color: #fff;
-}
+/* avatar div */
 .avatar {
     height: 50%;
     display: flex;
@@ -96,39 +116,45 @@ span {
     padding-bottom: 1.5rem;
     gap: 0.8rem;
 }
+/* author image name */
 .author {
     color: hsl(0, 0%, 100%);
     background-color: hsl(216, 50%, 16%);
 }
+/* author image */
 .avatar_img {
     width: 9%;
 }
+/* image text */
 .avatar_about {
     padding-bottom: 3px; 
 }
+/* auhor icon */
 .avatar_icon {
     width: 100%;
     height: 100%;
     border: 1px solid #fff;
 }
 
+/* On hover properties */
 .img_title:hover {
     color:hsl(178, 100%, 50%);
+    width: 100%;
+    height: 100%;
 }
 .author:hover {
     color:hsl(178, 100%, 50%);
+    cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAf4AAAPVAAAH1QAAB9WAAA3VgAAd/4AAGbaAAAG2gAABtgAAAYAAAAGAAAABgAAAAYAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////gD///4A///8AP//+AB///AAf//wAD//4AA//8AAP//AAD//5AA///wAf//8Af///D////w////8P////n///8='), auto; )
 }
-
 .card_image::before{
     content: "";
-    /* color: #fff; */
     position: absolute;
-    border-radius: 1.2rem;
+    border-radius: 1rem;
     z-index: 1000;
-    width:100%;
+    width: 100%;
     opacity: 0.2;
     height: 90%;
-    /* transition: all 0.1s linear; */
+    cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gAAAf4AAAPVAAAH1QAAB9WAAA3VgAAd/4AAGbaAAAG2gAABtgAAAYAAAAGAAAABgAAAAYAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////gD///4A///8AP//+AB///AAf//wAD//4AA//8AAP//AAD//5AA///wAf//8Af///D////w////8P////n///8='), auto;
 }
 .card_image::after{
     content: "";
@@ -141,7 +167,6 @@ span {
     width: 25%;
     height: 25%;
 }
-
 .image_parent:hover .card_image::before{
     background-color:hsl(178, 100%, 51%);  
 }
@@ -150,11 +175,50 @@ span {
 }
 
 
-
-/* 
-.attribution { 
-    font-size: 11px; text-align: center; 
+/* Setting width according to screen size */
+@media (min-width: 280px) and (max-width: 400px) {
+    .main_content {
+        width: 80%;
+    }
+    section {
+        width: 70%;
+    }
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-} */
+@media (min-width: 400px) and (max-width: 500px) {
+    .main_content {
+        width: 70%;
+    }
+    section {
+        width: 65%;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .main_content {
+        width: 60%;
+    }
+    section {
+        width: 63%;
+    }
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+    .main_content {
+        width: 45%;
+    }
+    section {
+        width: 60%;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1440px) {
+    .main_content {
+        width: 25%;
+    }
+    .content {
+        width: 90%;
+    }
+    section {
+        width: 63%;
+    }
+    .avatar_icon {
+        border-radius: 50%;
+    }
+}
