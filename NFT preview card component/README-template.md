@@ -9,10 +9,8 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [](https://github.com/abhishek372/Frontend-webpages/tree/main/NFT%20preview%20card%20component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
 
@@ -69,13 +67,12 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [HTML link](https://developer.mozilla.org/en-US/docs/Web/HTML) - This helped me writing efficient HTML code.
+- [CSS tricks link](https://css-tricks.com/) - This is an amazing article which helped me understand CSS. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Abhishek Kumar](https://www.my-site.com)
+- Frontend Mentor - [@abhishek372](https://www.frontendmentor.io/profile/abhishek372)
+- Twitter - [@Abhishe50609111](https://twitter.com/Abhishe50609111)
