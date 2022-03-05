@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop preview and Mobile preview
+Desktop preview (max-1444px) and Mobile preview(min-375px)
 
 ![Desktop preview](./previews/desktop_preview.png)
 
