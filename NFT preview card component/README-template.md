@@ -26,13 +26,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop preview](./previews/desktop_preview.png)
-
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![MObile preview](./previews/mobile_preview.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [](https://github.com/abhishek372/Frontend-webpages/tree/main/NFT%20preview%20card%20component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -42,13 +40,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -57,28 +49,23 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="coin">
+                <div class="coin_count"><img src="images/icon-ethereum.svg" class="coin_icon"><span>0.041 ETH</span></div>
+                <div class="days"><img src="images/icon-clock.svg" class="clock_icon"><span>3 days left</span></div>
+</div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.content {
+    padding-left: 1.2rem ;
+    padding-right: 1.2rem ;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
