@@ -23,11 +23,10 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop preview
+Desktop preview and Mobile preview
 ![Desktop preview](./previews/desktop_preview.png)
 
-Mobile preview
-![MObile preview](./previews/mobile_preview.png)
+![Mobile preview](./previews/mobile_preview.png)
 
 ### Links
 
